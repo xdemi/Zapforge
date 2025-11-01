@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Zapforge — Phones & Gadgets Deals</title>
+  <meta name="description" content="Zapforge — hand-picked phones, smartwatches and accessories. Compare deals and find the best price."/>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo"><img src="assets/logo.svg" alt="Zapforge logo" style="height:34px"/></div>
+      <nav class="nav">
+        <a href="#trending">Trending</a>
+        <a href="#hot">Hot Deals</a>
+        <a href="#editors">Editor's Picks</a>
+        <a href="#best">Best Deals</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero static-hero" id="home" style="background-image:url('assets/hero/hero_silver.jpg');">
+      <div class="hero-inner">
+        <img src="assets/logo.svg" alt="Zapforge" class="hero-logo"/>
+        <h1 class="hero-tagline">Discover the Future of Tech — Curated Deals on Phones & Gadgets</h1>
+      </div>
+    </section>
+
+    <section id="trending" class="section">
+      <h2 class="section-title">Trending</h2>
+      <div class="view-toggle">View: <button id="gridBtn" class="active">Grid</button> <button id="carouselBtn">Carousel</button></div>
+      <div class="products grid-view">
+        <article class="card"><img class="card-img" alt="iPhone 15 Pro" src="assets/iphone15pro_card.jpg"><div class="card-body"><h3>iPhone 15 Pro</h3><p>Powerful performance, pro camera craftsmanship.</p><div class="card-actions"><button class="deal-btn" data-product="iPhone 15 Pro">View Best Deals 💰</button></div></div></article>
+        <article class="card"><img class="card-img" alt="Samsung Galaxy S24 Ultra" src="assets/galaxy_s24_card.jpg"><div class="card-body"><h3>Samsung Galaxy S24 Ultra</h3><p>Top-tier display, pro-grade cameras.</p><div class="card-actions"><button class="deal-btn" data-product="Samsung Galaxy S24 Ultra">View Best Deals 💰</button></div></div></article>
+        <article class="card"><img class="card-img" alt="Google Pixel 9" src="assets/pixel9_card.jpg"><div class="card-body"><h3>Google Pixel 9</h3><p>Clean Android experience with AI smarts.</p><div class="card-actions"><button class="deal-btn" data-product="Google Pixel 9">View Best Deals 💰</button></div></div></article>
+      </div>
+    </section>
+
+    <section id="hot" class="section">
+      <h2 class="section-title">Hot Deals</h2>
+      <div class="products grid-view">
+        <article class="card"><img class="card-img" alt="AirPods Pro" src="assets/airpods_pro.jpg"><div class="card-body"><h3>AirPods Pro</h3><p>Active noise cancellation & spatial audio.</p><div class="card-actions"><button class="deal-btn" data-product="AirPods Pro">View Best Deals 💰</button></div></div></article>
+        <article class="card"><img class="card-img" alt="Galaxy Buds" src="assets/galaxy_buds.jpg"><div class="card-body"><h3>Galaxy Buds FE</h3><p>Great value, solid sound.</p><div class="card-actions"><button class="deal-btn" data-product="Galaxy Buds FE">View Best Deals 💰</button></div></div></article>
+        <article class="card"><img class="card-img" alt="Sony WH-1000XM5" src="assets/sony_wh1000xm5_card.jpg"><div class="card-body"><h3>Sony WH-1000XM5</h3><p>Industry-leading noise cancellation.</p><div class="card-actions"><button class="deal-btn" data-product="Sony WH-1000XM5">View Best Deals 💰</button></div></div></article>
+      </div>
+    </section>
+
+    <section id="editors" class="section">
+      <h2 class="section-title">Editor's Picks</h2>
+      <div class="products grid-view">
+        <article class="card"><img class="card-img" alt="Apple Watch Series 10" src="assets/apple_watch_10_card.jpg"><div class="card-body"><h3>Apple Watch Series 10</h3><p>Top health tracking & premium design.</p><div class="card-actions"><button class="deal-btn" data-product="Apple Watch Series 10">View Best Deals 💰</button></div></div></article>
+        <article class="card"><img class="card-img" alt="MacBook Air M3" src="assets/macbook_air_m3.jpg"><div class="card-body"><h3>MacBook Air M3</h3><p>Lightweight, fast, excellent battery life.</p><div class="card-actions"><button class="deal-btn" data-product="MacBook Air M3">View Best Deals 💰</button></div></div></article>
+        <article class="card"><img class="card-img" alt="Sony WH-1000XM5" src="assets/sony_wh1000xm5_card.jpg"><div class="card-body"><h3>Sony WH-1000XM5</h3><p>Top audio for creators & travelers.</p><div class="card-actions"><button class="deal-btn" data-product="Sony WH-1000XM5">View Best Deals 💰</button></div></div></article>
+      </div>
+    </section>
+
+    <section id="best" class="section best-picks">
+      <h2 class="section-title">⭐ Best Deals — Compare Prices</h2>
+      <div class="best-frame">
+        <div class="best-grid">
+          <div class="best-card"><h3>Best Phone — iPhone 15 Pro</h3><p>Balanced power & camera for creators.</p><div class="card-actions"><button class="deal-btn" data-product="iPhone 15 Pro">View Best Deals 💰</button></div></div>
+          <div class="best-card"><h3>Best Value — Google Pixel 9</h3><p>Great AI features at a strong price point.</p><div class="card-actions"><button class="deal-btn" data-product="Google Pixel 9">View Best Deals 💰</button></div></div>
+          <div class="best-card"><h3>Best Audio — Sony WH-1000XM5</h3><p>Top noise cancellation & comfort.</p><div class="card-actions"><button class="deal-btn" data-product="Sony WH-1000XM5">View Best Deals 💰</button></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 Zapforge – Powered by Tech Deals</div>
+      <div class="socials">
+        <a href="https://www.instagram.com/zapforgetech_/" target="_blank" rel="noopener">Instagram</a> |
+        <a href="#" target="_blank" rel="noopener">X</a> |
+        <a href="#" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="dealsModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">✕</button>
+      <h3 id="modalTitle">Best deals</h3>
+      <p id="modalSubtitle">Sample prices — replace with your affiliate links.</p>
+      <table class="deals-table"><thead><tr><th>Store</th><th>Price (USD)</th><th></th></tr></thead><tbody id="dealsBody"></tbody></table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
