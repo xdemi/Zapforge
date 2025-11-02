@@ -35,3 +35,11 @@
 .deal-link{color:#4a90e2;text-decoration:none}
 @media(max-width:900px){.grid-view,.best-grid{grid-template-columns:repeat(2,1fr)}.hero-tagline{font-size:18px}}
 @media(max-width:600px){.grid-view{grid-template-columns:1fr}.header-inner{padding:10px}.nav{display:none}.hero{height:40vh}.card-img{height:160px}}
+.logo img {
+  transition: all 0.3s ease;
+  animation: glowPulse 2s infinite alternate;
+}
+@keyframes glowPulse {
+  from { filter: drop-shadow(0 0 8px #00f9ff); }
+  to { filter: drop-shadow(0 0 16px #00f9ff) brightness(1.1); }
+}
